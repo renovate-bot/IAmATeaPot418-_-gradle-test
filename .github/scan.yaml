@@ -22,5 +22,5 @@ jobs:
         with:
           enable_github_action_token: false
           namespace: "yolo"
-          api_key: ${{ secrets.ENDORLAB_API_KEY }}
-          api_secret: ${{ secrets.ENDORLABS_API_SECRET }}
+          api_key: ${{ secrets.ENDOR_API_CREDENTIALS_KEY }}
+          api_secret: ${{ secrets.ENDOR_API_CREDENTIALS_SECRET }}
