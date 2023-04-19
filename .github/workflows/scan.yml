@@ -2,7 +2,7 @@ name: Endor Labs Example
 on: workflow_dispatch
 jobs:
   build-and-scan:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
